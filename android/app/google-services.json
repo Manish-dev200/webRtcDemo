@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044305375292",
+    "project_id": "voice-call-f4576",
+    "storage_bucket": "voice-call-f4576.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044305375292:android:497999777d49fb4b975339",
+        "android_client_info": {
+          "package_name": "com.app.voice_call_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKNMY6DqHuOYjXSXIwlvJK5qUCdVPqE48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
