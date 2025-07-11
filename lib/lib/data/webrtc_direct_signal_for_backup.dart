@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
 
-class Signaling {
+class WebRtcSignal {
   FirebaseFirestore db = FirebaseFirestore.instance;
   String? _roomId;
   final Map<String, dynamic> _configurationServer = {
@@ -205,7 +205,7 @@ class Signaling {
   void muteMic() {
     bool enabled = _localStream.getAudioTracks()[0].enabled;
     _localStream.getAudioTracks()[0].enabled = !enabled;
-    }
+  }
 
   Future<void> hungUp() async {
     _localStream.getTracks().forEach((track) {
